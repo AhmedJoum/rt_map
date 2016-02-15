@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "Please check your internet connection", Toast.LENGTH_LONG).show();
                 }
                 else if (!locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
-                    Toast.makeText(getApplicationContext(), "GPS not Enabled..", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), "GPS not Enabled.. anther comment", Toast.LENGTH_LONG).show();
                 }
                 else {
                     lon = "" + l.getLon();
